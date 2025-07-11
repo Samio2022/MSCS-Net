@@ -41,11 +41,11 @@ https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=shari
                 ├── image_n.png
 ```
 ## Preprocessing
-- Data Loading: Set the dataset path and load images/masks.
-2. Normalization: Apply MinMax scaling to images.
-3. Cropping: Central crop to desired input shape (e.g., 192×192×16).
-4. Saving: Save preprocessed images/masks as .npy files.
-5. Visualization: Use provided scripts to view random image-mask pairs.
+- `Data Loading: Set the dataset path and load images/masks`
+- `Normalization: Apply MinMax scaling to images`
+- `Cropping: Central crop to desired input shape (e.g., 192×192×16)`
+- `Saving: Save preprocessed images/masks as .npy files`
+- `Visualization: Use provided scripts to view random image-mask pairs`
 
 
 2. Custom Data Generator:
