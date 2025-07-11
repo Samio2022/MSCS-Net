@@ -48,48 +48,35 @@ https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=shari
 - `Visualization: Use provided scripts to view random image-mask pairs`
 
 
-2. Custom Data Generator:
+## Custom Data Generator:
 Utilize the custom data generator code provided, suitable for any dataset.
 Includes data augmentation techniques to mitigate overfitting with small datasets.
 
-HOW TO USE OR MODIFY?
+## Model Configuration:
 
-The file "ADV_AUG_CUSTOM_DATAGEN.py" serves as the Custom Data Generator. If you prefer not to apply Data Augmentation, simply remove the relevant sections from this code. Otherwise, no changes are necessary. This code is designed to work seamlessly with any 3D dataset.
-
-
-3. Model Configuration:
-
-NOTE： no changes are necessary. This code is designed to work seamlessly with any 3D dataset.
-
-the file "DMSA_Seg.py" is the model code. 
-Modify the input shape of the model according to your dataset size.
-Adjust the number of channels and classes as needed.
-The model is a self-optimizer, automatically adjusting itself.
+- Model architecture: DMSA_Seg.py
+- Adjust input shape and number of channels/classes as needed.
+- No further changes if your data matches the provided structure.
 
 
 
-4. Model Training:
+## Training:
 
-NOTE: You only need to update the directories for data loading.
+- Set directory paths for train/validation data.
+- Create data generators for training and validation.
+- Compile the model with optimizer, loss, and metrics.
+- Use callbacks: Early stopping and model checkpointing.
+- Train the model via fit().
+- Visualize metrics (loss/accuracy plots)
 
-Model Training Steps:
-Data Setup: Define directories for training and validation data.
-Data Generators: Create generators for training and validation data.
-Model Definition: Define the 3D model architecture.
-Compile Model: Compile the model with optimizer, loss, and metrics.
-Callbacks: Implement early stopping and model checkpointing callbacks.
-Training: Train the model with fit method, specifying generators and callbacks.
-Metrics Visualization: Visualize training and validation metrics.
+## Evaluation
+- Load trained or pre-trained model.
+- Prepare test images/masks as per training format.
+- Generate predictions.
+- Evaluate metrics: Accuracy, Dice, IoU, AHD.
+- Visualize results for random test cases.
 
+  ## Example Usage
+- from ADV_AUG_CUSTOM_DATAGEN import imageLoader
+- from DMSA_Seg import DMSA_Seg
 
-5. Evaluation
-
-NOTE: You only need to update the directories for data loading and the pre-trained model.
-
-Model Evaluation Steps:
-Load Model: Load the pre-trained model.
-Metrics and Loss: Utilize metrics like accuracy, IoU score, and loss functions such as Dice Loss.
-Prepare Data: Set up directories for test images and masks.
-Generate Predictions: Predict on test images using the model.
-Evaluate Mean IoU: Compute Mean IoU score for predictions against ground truth masks.
-Visualize Results: Display a sample visualization of test image, ground truth mask, and predicted mask.
