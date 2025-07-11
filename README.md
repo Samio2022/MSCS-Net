@@ -1,12 +1,37 @@
 ## MSCS-Net: A multi-scale contextual segmentation network for low-resolution acute stroke lesions
 
 
-## Requirements
-1. Python version: Python version: 3.9
-2. TensorFlow version: 2.10.0 or less if you want to use NVIDIA GPU. 
-3. numpy
-4. seaborn
-5. sklearn
+## Overview
+
+**MSCS-Net** is a deep learning model for 3D medical image segmentation, specifically designed for low-resolution MRI sequences (e.g., ADC/DWI) commonly used in acute stroke triage. The network incorporates advanced multi-scale attention modules and is optimized for clinical deployment, offering both high segmentation accuracy and computational efficiency.
+
+####### Requirements
+
+**Tested with the following versions:**
+
+- `python==3.9`
+- `tensorflow==2.10.0`
+- `keras==2.10.0`
+- `numpy==1.26.1`
+- `pandas==2.1.3`
+- `scikit-learn==1.3.2`
+- `scikit-image==0.24.0`
+- `matplotlib==3.8.1`
+- `seaborn==0.13.2`
+- `opencv-python==4.9.0.80`
+- `nibabel==5.3.2`
+- `Pillow==11.0.0`
+- `segmentation-models-3D==1.0.4`
+- `GPUtil==1.4.0`
+- `SimpleITK==2.4.1`
+- `statsmodels==0.14.4`
+- `tqdm==4.67.1`
+
+Install all dependencies:
+
+```bash
+pip install -r requirements.txt
+
 
 
 ## Dataset (The dataset can be downloaded from the below link)
