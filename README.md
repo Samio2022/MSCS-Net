@@ -5,10 +5,7 @@
 
 **MSCS-Net** is a deep learning model for 3D medical image segmentation, specifically designed for low-resolution MRI sequences (e.g., ADC/DWI) commonly used in acute stroke triage. The network incorporates advanced multi-scale attention modules and is optimized for clinical deployment, offering both high segmentation accuracy and computational efficiency.
 
-#### Requirements
-
-**Tested with the following versions:**
-
+## Requirements
 - `python==3.9`
 - `tensorflow==2.10.0`
 - `keras==2.10.0`
@@ -27,18 +24,11 @@
 - `statsmodels==0.14.4`
 - `tqdm==4.67.1`
 
-Install all dependencies:
-
-```bash
-pip install -r requirements.txt
-
-
-
 ## Dataset (The dataset can be downloaded from the below link)
 https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=sharing
 
 
-To apply the model on a custom dataset, the data tree should be constructed as:
+## To apply the model on a custom dataset, the data tree should be constructed as:
 ``` 
     ├── data
           ├── images
