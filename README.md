@@ -28,7 +28,7 @@
 https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=sharing
 
 
-## To apply the model on a custom dataset, the data tree should be constructed as:
+## To apply the model on a custom dataset, the data should be converted into the following structure:
 ``` 
     ├── data
           ├── images
@@ -40,18 +40,12 @@ https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=shari
                 ├── image_2.png
                 ├── image_n.png
 ```
-##  HOW TO USE THIS MODEL?
-1. Preprocessing Data: 
-Data Preprocessing Steps:
-Data Loading:
-Set the dataset path and initialize MinMaxScaler.
-Combine and Normalize Images:
-Crop Image: Perform a central crop on the combined images and masks.
-Process Each Sample: Load, combine, normalize, and crop each sample's images and masks.
-Data Splitting: Split the data into training, validation, and test sets.
-Save Data: Create directories and save the split data into .npy files.
-Data Verification: Print the shapes of the final data arrays.
-Visualization: Visualize a random slice from a randomly selected sample.
+## Preprocessing
+1. Data Loading: Set the dataset path and load images/masks.
+2. Normalization: Apply MinMax scaling to images.
+3. Cropping: Central crop to desired input shape (e.g., 192×192×16).
+4. Saving: Save preprocessed images/masks as .npy files.
+5. Visualization: Use provided scripts to view random image-mask pairs.
 
 
 2. Custom Data Generator:
