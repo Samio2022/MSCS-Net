@@ -41,7 +41,7 @@ https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=shari
                 ├── image_n.png
 ```
 ## Preprocessing
-1. Data Loading: Set the dataset path and load images/masks.
+- Data Loading: Set the dataset path and load images/masks.
 2. Normalization: Apply MinMax scaling to images.
 3. Cropping: Central crop to desired input shape (e.g., 192×192×16).
 4. Saving: Save preprocessed images/masks as .npy files.
