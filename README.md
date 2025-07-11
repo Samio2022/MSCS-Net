@@ -5,7 +5,7 @@
 
 **MSCS-Net** is a deep learning model for 3D medical image segmentation, specifically designed for low-resolution MRI sequences (e.g., ADC/DWI) commonly used in acute stroke triage. The network incorporates advanced multi-scale attention modules and is optimized for clinical deployment, offering both high segmentation accuracy and computational efficiency.
 
-####### Requirements
+#### Requirements
 
 **Tested with the following versions:**
 
