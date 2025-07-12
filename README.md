@@ -32,13 +32,13 @@ https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=shari
 ``` 
     ├── data
           ├── images
-                ├── image_1.png
-                ├── image_2.png
-                ├── image_n.png
+                ├── image_1.nii/npy
+                ├── image_2.nii/npy
+                ├── image_n.nii/npy
           ├── masks
-                ├── image_1.png
-                ├── image_2.png
-                ├── image_n.png
+                ├── image_1.nii/npy
+                ├── image_2.nii/npy
+                ├── image_n.nii/npy
 ```
 ## Preprocessing
 - `Data Loading: Set the dataset path and load images/masks`
