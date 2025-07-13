@@ -24,7 +24,7 @@
 - `statsmodels==0.14.4`
 - `tqdm==4.67.1`
 
-## Dataset (The dataset can be downloaded from the below link)
+## Dataset (The AIS dataset can be downloaded from the below link)
 https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=sharing
 
 
