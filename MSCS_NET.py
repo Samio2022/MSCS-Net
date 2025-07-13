@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 10 16:56:48 2025
 
-@author: Asim
-"""
 
 import tensorflow as tf
 from tensorflow.keras.models import Model, Sequential
