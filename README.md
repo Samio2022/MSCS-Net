@@ -39,7 +39,7 @@ https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=shari
 
 ## Citation Request
 If you use Our AIS dataset in your project, please cite the following paper
-
+``` 
 @article{zaman2025mscs,
   title={MSCS-Net: A deep learning framework for accurate segmentation of low-resolution stroke lesions},
   author={Zaman, Asim and Khan, Rashid and Yassin, Mazen M and Ahmad, Faizan and Lu, Jiaxi and Mehmud, Irfan and Luo, Yu and Kang, Yan},
@@ -48,7 +48,7 @@ If you use Our AIS dataset in your project, please cite the following paper
   year={2025},
   publisher={Elsevier}
 }
-
+``` 
 
 
 ## To apply the model on a custom dataset, the data should be converted into the following structure:
@@ -105,7 +105,7 @@ Includes data augmentation techniques to mitigate overfitting with small dataset
 
 ## Citation Request
 If you use MSCS-Net in your project, please cite the following paper
-
+``` 
 @article{zaman2025mscs,
   title={MSCS-Net: A deep learning framework for accurate segmentation of low-resolution stroke lesions},
   author={Zaman, Asim and Khan, Rashid and Yassin, Mazen M and Ahmad, Faizan and Lu, Jiaxi and Mehmud, Irfan and Luo, Yu and Kang, Yan},
@@ -114,7 +114,7 @@ If you use MSCS-Net in your project, please cite the following paper
   year={2025},
   publisher={Elsevier}
 }
-
+``` 
 
 
 
