@@ -37,8 +37,8 @@ Zaman, Asim, Rashid Khan, Mazen M. Yassin, Faizan Ahmad, Jiaxi Lu, Irfan Mehmud,
 ## Dataset (The AIS dataset can be downloaded from the below link)
 https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=sharing
 
-## Citation Request
-If you use Our AIS dataset in your project, please cite the following paper
+### Citation Request
+#If you use Our AIS dataset in your project, please cite the following paper
 ``` 
 @article{zaman2025mscs,
   title={MSCS-Net: A deep learning framework for accurate segmentation of low-resolution stroke lesions},
@@ -104,7 +104,7 @@ Includes data augmentation techniques to mitigate overfitting with small dataset
 - from DMSA_Seg import DMSA_Seg
 
 ## Citation Request
-If you use MSCS-Net in your project, please cite the following paper
+# If you use MSCS-Net in your project, please cite the following paper
 ``` 
 @article{zaman2025mscs,
   title={MSCS-Net: A deep learning framework for accurate segmentation of low-resolution stroke lesions},
