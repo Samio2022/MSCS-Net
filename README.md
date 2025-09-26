@@ -1,9 +1,19 @@
-## MSCS-Net: A multi-scale contextual segmentation network for low-resolution acute stroke lesions
+## MSCS-Net: A deep learning framework for accurate segmentation of low-resolution stroke lesions
+This repository contains the original implementation of "MSCS-Net : A deep learning framework for accurate segmentation of low-resolution stroke lesions" in Keras (Tensorflow as backend).
 
+## Paper
+MSCS-Net has been published in Measurement
+
+Zaman, Asim, Rashid Khan, Mazen M. Yassin, Faizan Ahmad, Jiaxi Lu, Irfan Mehmud, Yu Luo, and Yan Kang. "MSCS-Net: A deep learning framework for accurate segmentation of low-resolution stroke lesions." Measurement (2025): 118925.
 
 ## Overview
 
 **MSCS-Net** is a deep learning model for 3D medical image segmentation, specifically designed for low-resolution MRI sequences (e.g., ADC/DWI) commonly used in acute stroke triage. The network incorporates advanced multi-scale attention modules and is optimized for clinical deployment, offering both high segmentation accuracy and computational efficiency.
+
+![Fig  1](https://github.com/user-attachments/assets/fdc59217-7739-4c57-a54a-0fde12738bc6)
+<img width="6013" height="2776" alt="Fig  2" src="https://github.com/user-attachments/assets/7bfba16c-c901-4da6-9e74-17c8d0e7febd" />
+![Fig  3](https://github.com/user-attachments/assets/44e791d7-d743-42ba-b69e-8a6906a60af3)
+
 
 ## Requirements
 - `python==3.9`
@@ -26,6 +36,19 @@
 
 ## Dataset (The AIS dataset can be downloaded from the below link)
 https://drive.google.com/file/d/17BHI51eEiYr-gxHTG49gBhRCAAbclrV-/view?usp=sharing
+
+## Citation Request
+If you use Our AIS dataset in your project, please cite the following paper
+
+@article{zaman2025mscs,
+  title={MSCS-Net: A deep learning framework for accurate segmentation of low-resolution stroke lesions},
+  author={Zaman, Asim and Khan, Rashid and Yassin, Mazen M and Ahmad, Faizan and Lu, Jiaxi and Mehmud, Irfan and Luo, Yu and Kang, Yan},
+  journal={Measurement},
+  pages={118925},
+  year={2025},
+  publisher={Elsevier}
+}
+
 
 
 ## To apply the model on a custom dataset, the data should be converted into the following structure:
@@ -79,4 +102,19 @@ Includes data augmentation techniques to mitigate overfitting with small dataset
   ## Example Usage
 - from ADV_AUG_CUSTOM_DATAGEN import imageLoader
 - from DMSA_Seg import DMSA_Seg
+
+## Citation Request
+If you use MSCS-Net in your project, please cite the following paper
+
+@article{zaman2025mscs,
+  title={MSCS-Net: A deep learning framework for accurate segmentation of low-resolution stroke lesions},
+  author={Zaman, Asim and Khan, Rashid and Yassin, Mazen M and Ahmad, Faizan and Lu, Jiaxi and Mehmud, Irfan and Luo, Yu and Kang, Yan},
+  journal={Measurement},
+  pages={118925},
+  year={2025},
+  publisher={Elsevier}
+}
+
+
+
 
